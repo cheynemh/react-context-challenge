@@ -1,0 +1,18 @@
+.Header {
+    width: 100vw;
+    height: 25vh;
+}
+
+.day {
+    background-color: #eee;
+    color: #333;
+    border: 1px solid #222;
+}
+
+.night {
+    background-color: #333;
+    color: #eee;
+    button {
+        border: 1px solid #fff;
+    }
+}

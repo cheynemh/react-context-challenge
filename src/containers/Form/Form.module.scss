@@ -1,0 +1,33 @@
+div.day,
+div.night {
+    width: 100vw;
+    height: 75vh;
+}
+
+.day {
+    background-color: #eee;
+    input {
+        border: 1px solid #333;
+    }
+    button {
+        border: 1px solid #333;
+        background-color: #eee;
+    }
+}
+
+.night {
+    background-color: #333;
+    input {
+        border: 1px solid #fff;
+        background-color: #161616;
+        color: #fff;
+        &::placeholder {
+            color: #ddd;
+        }
+    }
+    button {
+        border: 1px solid #fff;
+        background-color: #333;
+        color: #fff;
+    }
+}
